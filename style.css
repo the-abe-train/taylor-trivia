@@ -3,14 +3,12 @@
 body {
   background-color: #ffedff;
   text-align: center;
-}
-
-h1 {
-  font-size: 1.5rem;
+  max-width: 900px;
+  margin: 2rem auto;
 }
 
 #lyrics {
-  margin: 3rem 0;
+  margin: 6rem 0;
   font-family: "IM Fell DW Pica", serif;
   font-style: italic;
 }
@@ -18,15 +16,17 @@ h1 {
 label,
 button,
 p,
+input,
 h1 {
   font-family: "EB Garamond", serif;
+  font-size: 32px;
 }
 
 button {
   border-radius: 0.2rem;
   border-style: solid;
   border-width: 1px;
-  padding: 0rem 0.4rem 0.2rem 0.4rem;
+  padding: 0rem 0.5rem 0.2rem 0.5rem;
   background-color: #fefdfa;
   cursor: pointer;
 }
@@ -37,12 +37,11 @@ h1 {
 
 #title {
   text-align: left;
-  font-size: small;
-  margin-top: 4rem;
+  margin: 0;
 }
 
 #new-lyric {
-  text-align: right;
+  text-align: center;
   background-color: #272838;
   color: white;
   border-color: #272838;
@@ -51,12 +50,7 @@ h1 {
 header {
   display: flex;
   width: 100%;
-  justify-content: flex-end;
-}
-
-form {
-  display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 #submit {
@@ -65,4 +59,12 @@ form {
 
 .hidden {
   display: none;
+}
+
+#guessbox {
+  width: 40%;
+}
+
+label {
+  width: fit-content;
 }
