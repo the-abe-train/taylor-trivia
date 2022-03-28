@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taylor Trivia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=IM+Fell+DW+Pica&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <button id="new-lyric" onclick="location.reload()">new lyric</button>
+    </header>
+    <p id="lyrics"></p>
+    <form action="" method="post" id="form">
+      <label
+        >name the song:
+        <input type="text" name="guess" />
+      </label>
+      <button type="submit" id="submit">guess</button>
+    </form>
+    <p id="answer"></p>
+    <p id="song"></p>
+    <p id="album"></p>
+
+    <button id="reveal">reveal song</button>
+    <p id="title">name the taylor song</p>
+    <script src="./app.js"></script>
+  </body>
+</html>

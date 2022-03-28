@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica&display=swap");
+
+body {
+  background-color: #ffedff;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+#lyrics {
+  margin: 3rem 0;
+  font-family: "IM Fell DW Pica", serif;
+  font-style: italic;
+}
+
+label,
+button,
+p,
+h1 {
+  font-family: "EB Garamond", serif;
+}
+
+button {
+  border-radius: 0.2rem;
+  border-style: solid;
+  border-width: 1px;
+  padding: 0rem 0.4rem 0.2rem 0.4rem;
+  background-color: #fefdfa;
+  cursor: pointer;
+}
+
+h1 {
+  font-weight: 100;
+}
+
+#title {
+  text-align: left;
+  font-size: small;
+  margin-top: 4rem;
+}
+
+#new-lyric {
+  text-align: right;
+  background-color: #272838;
+  color: white;
+  border-color: #272838;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+#submit {
+  margin-left: 0.25rem;
+}
+
+.hidden {
+  display: none;
+}
