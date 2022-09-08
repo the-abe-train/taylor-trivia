@@ -18,6 +18,7 @@ function reveal(lyrics) {
   document.querySelector("#album").innerHTML = `Album: ${lyrics.album}`
   document.querySelector("#answer").innerHTML = ""
   document.querySelector("#reveal").classList.add("hidden")
+  document.querySelector("#form").classList.add("hidden")
 }
 
 function guess(e, lyrics) {
