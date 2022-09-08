@@ -65,12 +65,23 @@ header {
   justify-content: space-between;
 }
 
+@media only screen and (max-width: 600px) {
+  header {
+    flex-direction: column;
+  }
+}
+
 footer {
   text-align: left;
+  margin-top: 4rem;
 }
 
 #submit {
   margin-left: 0.25rem;
+}
+
+#new-lyric {
+  width: fit-content;
 }
 
 .hidden {
