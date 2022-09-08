@@ -18,18 +18,25 @@
       <p id="title">name the taylor song</p>
       <button id="new-lyric" onclick="location.reload()">new lyric</button>
     </header>
-    <p id="lyrics"></p>
-    <form action="" method="post" id="form">
-      <label
-        >name the song:
-        <input id="guessbox" type="text" name="guess" />
-      </label>
-      <button type="submit" id="submit">guess</button>
-    </form>
-    <p id="answer"></p>
-    <p id="song"></p>
-    <p id="album"></p>
-    <button id="reveal">reveal song</button>
+    <main>
+      <p id="lyrics"></p>
+      <form action="" method="post" id="form">
+        <label
+          >name the song:
+          <input id="guessbox" type="text" name="guess" />
+        </label>
+        <button type="submit" id="submit">guess</button>
+      </form>
+      <div>
+        <p id="answer"></p>
+        <p id="song"></p>
+        <p id="album"></p>
+      </div>
+      <button id="reveal">reveal song</button>
+    </main>
+    <footer>
+      Web app by <a href="https://the-abe-train.com">The Abe Train</a>
+    </footer>
 
     <script src="./app.js"></script>
   </body>
